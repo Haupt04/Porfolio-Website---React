@@ -48,7 +48,7 @@ function Navbar() {
                 <ul>
                     <li>
                         <Link onClick={closeMenu} 
-                        activeClass="navBar--active-content" 
+                        activeClass="navbar--active-content" 
                         spy={true} 
                         smooth={true}
                         offset={-70}
