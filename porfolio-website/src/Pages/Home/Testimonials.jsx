@@ -4,9 +4,9 @@ export default function Testimonial(){
     return(
         <section className='testimonial--section' id='testimonial'>
             <div className='portfolio--container-box'>
-                <div className='portfolio-container'>
+                <div className='portfolio--container'>
                     <p className='sub--title'>Client's Feedback</p>
-                    <h2 className='sections--headings'>Customer Feedback</h2>
+                    <h2 className='sections--heading'>Customer Feedback</h2>
                 </div>
             </div>
             <div className='portfolio--section--container'>
@@ -32,8 +32,8 @@ export default function Testimonial(){
                         <div className='testimonial--section--card--author--detail'>
                             <img src={item.src} alt='Avarter'/>
                             <div>
-                                <p className='test-md testimonial--author--name'>{item.author_name}</p>
-                                <p className='test-md testimonial--author--designation'>{item.author_designation}</p>
+                                <p className='text-md testimonial--author--name'>{item.author_name}</p>
+                                <p className='text-md testimonial--author--designation'>{item.author_designation}</p>
                             </div>
                         </div>
                     </div>
