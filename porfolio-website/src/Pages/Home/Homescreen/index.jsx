@@ -4,6 +4,7 @@ import MySkills from "../MySkills";
 import MyPortolio from "../MyPorfolio";
 import Testimonial from "../Testimonials";
 import ContactMe from "../ContactMe";
+import Footer from "../Footer";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
             <MyPortolio />
             <Testimonial />
             <ContactMe />
+            <Footer />
         </>
     )
 }

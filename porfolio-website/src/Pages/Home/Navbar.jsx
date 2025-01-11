@@ -1,13 +1,13 @@
 import { useState, useEffect} from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 
 
 function Navbar() {
     const [navActive, setNavActive ] = useState(false);
 
-    const toggleNac = () => { /* Open Nav Menu */
-        setNavActive(!navActive)
+    const toggleNav = () => { /* Open Nav Menu */
+        setNavActive(!navActive);
     }
 
     const closeMenu = () => { /* Close Nav Menu */
@@ -17,7 +17,7 @@ function Navbar() {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 500){
-                closeMenu;
+                closeMenu();
             }
         }
 
@@ -39,7 +39,7 @@ function Navbar() {
             <div>
                 <img src="./img/logo.svg" alt="Logo"/>
             </div>
-            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNac}>
+            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span>
                 <span className="nav__hamburger__line"></span> 
@@ -86,7 +86,7 @@ function Navbar() {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="Testimonials"
+                        to="testimonial"
                         className="navbar--content"
                         >Testimonials</Link>
                     </li>
