@@ -47,5 +47,31 @@
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere dicta inventore numquam laudantium nemo distinctio dolorum soluta.",
             "link": "View in Github"
         }
+    ],
+    "testimonial": [
+        {
+            "id": "1",
+            "count": "5",
+            "src": "./img/avatar-image.png",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere dicta inventore numquam laudantium nemo distinctio dolorum soluta.",
+            "author_name": "Dianne Russel",
+            "author_designation": "Starbucks"
+        },
+        {
+           "id": "2",
+            "count": "5",
+            "src": "./img/avatar-image-1.png",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere dicta inventore numquam laudantium nemo distinctio dolorum soluta.",
+            "author_name": "Kristin Watson",
+            "author_designation": "Spar"
+        },
+        {
+            "id": "3",
+            "count": "5",
+            "src": "./img/avatar-image.png",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere dicta inventore numquam laudantium nemo distinctio dolorum soluta.",
+            "author_name": "Kathryn Murphy",
+            "author_designation": "McDonalds"
+        }
     ]
 }
